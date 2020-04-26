@@ -151,6 +151,7 @@ function lib:window(letitle)
         dabutt.Position = UDim2.new(-0.00141566806, 0, 0, 0)
         dabutt.Size = UDim2.new(1, 0, 0, 31)
         dabutt.Font = Enum.Font.Gotham
+	dabutt.Text = title;
         dabutt.TextColor3 = Color3.fromRGB(225, 225, 225)
         dabutt.TextSize = 14.000
         dabutt.TextWrapped = true
