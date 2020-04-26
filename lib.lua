@@ -238,22 +238,6 @@ local a = Instance.new("ImageLabel", dabutt)
         instances = instances + 1
         main.Size = UDim2.new(1, 0, 0, (instances * 34)+10)
     end
-    function aa:label(title)
-        local dalabelspace = Instance.new("TextLabel", main)
-        dalabelspace.Name = "dalabelspace"
-        dalabelspace.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-        dalabelspace.BorderSizePixel = 0
-        dalabelspace.Position = UDim2.new(0.025906736, 0, 0.726708055, 0)
-        dalabelspace.Size = UDim2.new(0, 182, 0, 30)
-        dalabelspace.Font = Enum.Font.GothamBold
-        dalabelspace.Text = title
-        dalabelspace.BackgroundTransparency = 1;
-        dalabelspace.TextColor3 = Color3.fromRGB(225, 225, 225)
-        dalabelspace.TextSize = 15.000
-        dalabelspace.TextWrapped = true;
-        instances = instances + 1
-        main.Size = UDim2.new(1, 0, 0, (instances * 34)+10)
-    end
     function aa:section()
         local section = Instance.new("Frame", main)
         section.Name = "section"
